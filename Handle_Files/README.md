@@ -2,10 +2,10 @@
 
 Name                 | Description
  :---:                | :---
- [handling_files_A]      | Basic read & write examples in C.
- [handling_files_B]      | Reading .csv format file
- [text1]               | Line with String-Integer pairs 
- [text2]               | Comma Separated text file
+ [handling_files_A.c]      | Basic read & write examples in C.
+ [handling_files_B.c]      | Reading .csv format file
+ [text1.txt]               | Line with String-Integer pairs 
+ [text2.txt]               | Comma Separated text file
 
 
 
