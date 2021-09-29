@@ -1,0 +1,4 @@
+NAME,ADDRESS,AGE
+name1,address1,10
+name2,address2,22
+name3,address3,32
