@@ -1,3 +1,8 @@
+/*
+*Comment out the rest of the code and keep one example at a time
+*Run example1 comment out examples 2,3
+*change fopen() mode accordingly.
+*/
 #include <stdlib.h>
 #include <stdio.h>
 int main(){
@@ -9,7 +14,7 @@ int main(){
     FILE *fp; //file pointer
 
     // if filename is valid
-    if( (fp = fopen(filename3,"a")) != NULL){
+    if( (fp = fopen(filename1,"r")) != NULL){ // change to 'w','a'
         // do all the stuf
         // char *line=(char*)malloc(21);
 
@@ -21,14 +26,14 @@ int main(){
         }
 
         //example2 read line per line till the EOF
-        // char *line2 = NULL;
+        char *line2 = NULL;
         size_t length;
         while((getline(&line2,&length,fp)) >= 0){
             printf("line_is =%s \n",line2);
 
         }
 
-        //example4 writing or appending
+        //example3 writing or appending
         fprintf(fp,"\n %s",string2write);
 
 
