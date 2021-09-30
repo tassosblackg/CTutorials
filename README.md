@@ -1,2 +1,4 @@
 # CTutorials
-C tutorials for Data Structure classes
+C tutorials for Data Structure series of videos on Youtube
+
+O κώδικας χρησιμοποιήθηκε για τα βίντεο στα πλαίσια των ζητουμένων της ανταποδοτικής υποτροφίας του Πανεπιστημίου Μακεδονίας για το μάθημα Δομές Δεδομένων για το έτος 2021
